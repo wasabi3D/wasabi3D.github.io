@@ -1,0 +1,21 @@
+
+.title {
+    font-size: 2.8em;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: rgba(171, 2, 24, 1);
+
+    margin: 0.5em 1em;
+}
+
+
+.subtitle {
+    font-size: 2em;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: rgba(196, 10, 34, 1);
+}
+
+.box {
+    border: 0.2em double rgba(30, 101, 56, 1);
+}

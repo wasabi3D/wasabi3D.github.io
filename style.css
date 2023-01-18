@@ -1,4 +1,8 @@
 
+body {
+    background: rgb(250, 234, 220);
+}
+
 .title {
     font-size: 2.8em;
     font-family: 'Roboto Slab', serif;

@@ -26,7 +26,7 @@ body {
 
 .plus {
     background:rgb(252, 201, 106);
-    font-family: monospace;
+    font-family: "Rubik", monospace;
     text-align: center;
     color: black;
 
@@ -48,11 +48,13 @@ body {
 .title-article {
     font-family: "Noto Serif", serif;
     text-decoration: underline;
-    color: rgb(248, 193, 41)
+    color: rgb(248, 193, 41);
+    font-size: 2em;
 }
 
 body {
     background-image: url("https://live.staticflickr.com/4100/4923566097_8fb8bcc415_b.jpg");
+    background-size: cover;
 }
 
 .article {
@@ -63,10 +65,33 @@ body {
     border-radius: 4px;
 }
 
+.resume {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    width: 50%;
+    margin-right: 6.5em;
+    font-size: 1.2em;
+    text-indent: 0.8em;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-description {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+
+/* ====== ids ======= */
 
 #authors {
     text-align: right;
-    font-family: monospace;
+    font-family: "Rubik", monospace;
 
     font-size: 1em;
     color: white;
@@ -74,40 +99,15 @@ body {
     margin: 45px 10px;
 }
 
-
 #rutherford {
     width: 7em;
-    display: block;
     margin-left: auto;
-    margin-right: 2em;
+    margin-right: 15em;
+    margin-bottom: 0;
+    /* padding: 0px 0px; */
+    
 }
 
-
-.resume {
-    color: white;
-    font-family: sans-serif;
-    /* margin-right: 25%; */
+#fusion-schema {
+    width: 10em;
 }
-
-
-/* .resume-block {
-    display: flex;
-    flex-direction: row;
-} */
-
-
-/* 
-.res {
-    position: fixed;
-    top: 0;
-    overflow-x: hidden;
-}
-
-.txt {
-    left: 0;
-    width: 75%;
-}
-
-.img {
-    right: 0;
-} */

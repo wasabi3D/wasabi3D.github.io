@@ -1,6 +1,7 @@
 
 body {
-    background: rgb(250, 234, 220);
+    background-image: url("https://live.staticflickr.com/4100/4923566097_8fb8bcc415_b.jpg");
+    background-size: cover;
 }
 
 .title {
@@ -11,7 +12,6 @@ body {
 
     margin: 0.5em 1em;
 }
-
 
 .subtitle {
     font-size: 2em;
@@ -34,15 +34,27 @@ body {
     padding: 5px 3px;
     border: 3px solid rgb(232, 181, 86);
     border-radius: 4px;
+    transition: all 0.4s ease 0s;
 }
 
 
 .plus:visited, .plus:link {
+    background:rgb(252, 201, 106);
+    font-family: "Rubik", monospace;
+    text-align: center;
     color: black;
+
+    width: 5.8em;
+    padding: 5px 3px;
+    border: 3px solid rgb(232, 181, 86);
+    border-radius: 4px;
+    transition: all 0.4s ease 0s;
 }
 
 .plus:hover {
     color: red;
+    padding: 9px 7px;
+    border: 2px solid rgb(202, 161, 66);
 }
 
 .title-article {
@@ -50,11 +62,6 @@ body {
     text-decoration: underline;
     color: rgb(248, 193, 41);
     font-size: 2em;
-}
-
-body {
-    background-image: url("https://live.staticflickr.com/4100/4923566097_8fb8bcc415_b.jpg");
-    background-size: cover;
 }
 
 .article {

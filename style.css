@@ -7,7 +7,7 @@ body {
     font-size: 2.8em;
     font-family: 'Roboto Slab', serif;
     text-align: center;
-    color: rgba(171, 2, 24, 1);
+    color: rgba(201, 32, 54, 1);
 
     margin: 0.5em 1em;
 }
@@ -23,3 +23,91 @@ body {
 .box {
     border: 0.2em double rgba(30, 101, 56, 1);
 }
+
+.plus {
+    background:rgb(252, 201, 106);
+    font-family: monospace;
+    text-align: center;
+    color: black;
+
+    width: 5.8em;
+    padding: 5px 3px;
+    border: 3px solid rgb(232, 181, 86);
+    border-radius: 4px;
+}
+
+
+.plus:visited, .plus:link {
+    color: black;
+}
+
+.plus:hover {
+    color: red;
+}
+
+.title-article {
+    font-family: "Noto Serif", serif;
+    text-decoration: underline;
+    color: rgb(248, 193, 41)
+}
+
+body {
+    background-image: url("https://live.staticflickr.com/4100/4923566097_8fb8bcc415_b.jpg");
+}
+
+.article {
+    background: rgba(131, 130, 130, 0.6);
+
+    padding: 10px 10px;
+    border:3px solid rgba(220, 220, 220, 0.4);
+    border-radius: 4px;
+}
+
+
+#authors {
+    text-align: right;
+    font-family: monospace;
+
+    font-size: 1em;
+    color: white;
+
+    margin: 45px 10px;
+}
+
+
+#rutherford {
+    width: 7em;
+    display: block;
+    margin-left: auto;
+    margin-right: 2em;
+}
+
+
+.resume {
+    color: white;
+    font-family: sans-serif;
+    /* margin-right: 25%; */
+}
+
+
+/* .resume-block {
+    display: flex;
+    flex-direction: row;
+} */
+
+
+/* 
+.res {
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.txt {
+    left: 0;
+    width: 75%;
+}
+
+.img {
+    right: 0;
+} */

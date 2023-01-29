@@ -1,16 +1,47 @@
 
+#histoire{
+    /* background-image: url("https://u.cubeupload.com/Kaedee/6EvBd0.png"); */
+    /* background-size: cover; */
+    background:rgb(63, 60, 60);
+}
+
+
 .titre-article {
-    color: rgb(0, 212, 212);
+    background-image: url("https://u.cubeupload.com/Kaedee/6EvBd0.png");
+    background-size: 90vw;
+
+    background-position-y: center;
+
+    color: rgb(166, 166, 166);
     text-align: center;
+    font-family: 'Roboto slab', serif;
 
     padding: 1em 1em;
-    border: 0.2em dotted aquamarine ;
+    border: 0.1em dotted rgb(193, 193, 193) ;
     margin: 2em 1em;
 }
 
 
 .list-item {
-    color: white;
+    color: rgb(210, 210, 210);
     font-size: 1.4em;
+    font-family: 'Quicksand', sans-serif;
+    width: 80vw;
+    text-align: justify;
 
+    margin: 3em 5vw;
+}
+
+
+.date {
+    color: rgb(168, 168, 168);
+    font-size: 1.6em;
+    font-family: 'Noto serif', serif;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+
+ul li{
+    list-style-type: none;
 }

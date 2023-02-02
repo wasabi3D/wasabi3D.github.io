@@ -2,12 +2,13 @@
 #histoire{
     /* background-image: url("https://u.cubeupload.com/Kaedee/6EvBd0.png"); */
     /* background-size: cover; */
-    background:rgb(63, 60, 60);
+    /* background:rgb(63, 60, 60); */
+    background-image: url("https://prologin.org/static/img/footer.png");
 }
 
 
 .titre-article {
-    background-image: url("https://u.cubeupload.com/Kaedee/6EvBd0.png");
+    /* background-image: url("https://u.cubeupload.com/Kaedee/6EvBd0.png"); */
     background-size: 90vw;
 
     background-position-y: center;

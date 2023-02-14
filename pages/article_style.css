@@ -112,7 +112,7 @@ p {
     width: 1.4em;
 }
 
-.backtxt:visited, .backtxt:link {
+.backtxt:visited, .backtxt:link, .backtxt:hover{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2em;
     color: rgb(183, 183, 183);

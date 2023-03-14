@@ -1,6 +1,6 @@
 
 function reveal() {
-  var reveals = document.querySelectorAll(".list-item");
+  var reveals = document.querySelectorAll(".hist");
 
   for (var i = 0; i < reveals.length; i++) {
     var windowHeight = window.innerHeight;

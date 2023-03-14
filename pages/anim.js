@@ -1,19 +1,21 @@
-const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      const square = entry.target.querySelector('.list-item');
-  
-      if (entry.isIntersecting) {
-        square.classList.add('fade-anim');
-        return; // if we added the class, exit the function
-      }
-  
-      // We're not intersecting, so remove the class!
-      square.classList.remove('fade-anim');
-    });
-});
 
-window.onload = function(){
-    for(el in Array.from(document.getElementsByClassName('.histd'))){
-        observer.observe(el);
+function reveal() {
+  var reveals = document.querySelectorAll(".list-item");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      // reveals[i].classList.remove("active");
     }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+window.onload = function(){
+  reveal();
 }

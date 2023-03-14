@@ -29,8 +29,38 @@
     font-family: 'Quicksand', sans-serif;
     width: 80vw;
     text-align: justify;
+    opacity: 0;
+    scale: 0.85;
+    transform: translate(-6em);
+    transition: 1s all ease;
 
     margin: 3em 5vw;
+}
+
+.list-item.active {
+    opacity: 1;
+    scale: 1;
+    transform: translate(0px);
+}
+
+#intro-histoire {
+    text-align: center;
+    font-family: 'Noto serif', serif;
+    color: rgb(237, 237, 237);
+    font-size: 2.5em;
+
+    margin-top: 3em;
+    margin-bottom: 7.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    background: url("https://www.historyonthenet.com/wp-content/uploads/2022/01/Parthenon-Podcast-Network.jpg");
+    background-size: contain;
+    width: 70%;
+    height: 3em;
+
+    border: 0.1em solid rgb(75, 75, 75);
+    border-radius: 6px;
 }
 
 

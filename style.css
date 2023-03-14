@@ -2,6 +2,7 @@
 body {
     background-image: url("https://live.staticflickr.com/4100/4923566097_8fb8bcc415_b.jpg");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .title {
@@ -100,10 +101,10 @@ body {
     text-align: right;
     font-family: "Rubik", monospace;
 
-    font-size: 1em;
+    font-size: 1.4em;
     color: white;
 
-    margin: 45px 10px;
+    margin: 10px 10px;
 }
 
 #rutherford {
@@ -117,4 +118,62 @@ body {
 
 #fusion-schema {
     width: 10em;
+}
+
+.jardin {
+    animation-name: jardin-anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    text-decoration: none;
+}
+
+
+@keyframes jardin-anim {
+    0% {
+        color: rgba(201, 32, 54, 1);
+    }
+
+    50% {
+        color: rgb(29, 135, 0);
+    }
+
+    100% {
+        color: rgba(201, 32, 54, 1);
+    }
+}
+
+
+#shadowBox {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black w/opacity/see-through */
+    /* border: 3px solid; */
+}
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: inherit;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 3s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
 }
